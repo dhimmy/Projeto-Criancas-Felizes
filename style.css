@@ -1,5 +1,57 @@
 * {
 	box-sizing: border-box;
 	padding: 0;
-	margin: 0;
+	/*margin: 0;*/
+	font-family: 'Dosis', sans-serif;
+}
+.parceiros{
+	display: flex;
+	flex-direction: column;
+	font-family: KorolevBold;
+}
+.firts-titulo{
+	font-size: 40px;
+	margin-left: 2%;
+	color: #A6538D;
+	/*font-family: 'Dosis', sans-serif;*/
+	padding-left: 90px;
+}
+.bloco_firts__caixa{
+	width: 60%;
+	height: 40vh;
+	display: flex;
+	padding-left: 60px;
+	padding-top: 50px;
+	justify-content: space-around;
+}
+
+.container_firts__img{
+	width: 172px;
+	height: 106px;
+}
+.container_second__img{
+	width:  155px;
+	height: 132px;
+}
+.container_three__img{
+	width: 223px;
+	height: 89px;
+	padding-top: 30px;
+} 
+@media (max-width: 768px){
+	.bloco_firts__caixa{
+		width: 80%;
+		padding-left: 50vh;
+	}
+	.container_firts__img, .container_second__img, .container_three__img {
+		margin-right: 50px;
+
+	}
+}
+@media (max-width: 375px){
+	.firts-titulo{
+		font-size: 40px;
+		margin-left: 20%; 
+	}
+
 }
